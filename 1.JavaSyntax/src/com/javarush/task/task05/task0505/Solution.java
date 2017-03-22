@@ -14,7 +14,6 @@ public class Solution {
         System.out.println(cat1.fight(cat3));
         System.out.println(cat2.fight(cat3));
 
-        //напишите тут ваш код
     }
 
     public static class Cat {
@@ -36,7 +35,7 @@ public class Solution {
             int strengthPlus = this.strength > anotherCat.strength ? 1 : 0;
 
             int score = agePlus + weightPlus + strengthPlus;
-            return score > 2; // return score > 2 ? true : false;
+            return score > 2; 
         }
     }
 }

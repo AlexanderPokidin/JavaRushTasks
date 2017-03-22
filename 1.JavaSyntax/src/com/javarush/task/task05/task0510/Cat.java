@@ -41,7 +41,6 @@ public class Cat {
         this.address = address;
         age = 2;
     }
-    //напишите тут ваш код
 
     public static void main(String[] args) {
 

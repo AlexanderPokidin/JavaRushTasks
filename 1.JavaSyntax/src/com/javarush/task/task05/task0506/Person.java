@@ -9,8 +9,6 @@ public class Person {
     private int age;
     private String address;
     private char sex;
-    //напишите тут ваш код
-
 
     public static void main(String[] args) {
 

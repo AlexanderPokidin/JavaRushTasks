@@ -21,7 +21,6 @@ public class Dog {
         this.height = height;
         this.color = color;
     }
-    //напишите тут ваш код
 
     public static void main(String[] args) {
 

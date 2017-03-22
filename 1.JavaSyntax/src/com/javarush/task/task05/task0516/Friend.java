@@ -22,13 +22,8 @@ public class Friend {
         this.age = age;
         this.sex = sex;
     }
-    //напишите тут ваш код
 
     public static void main(String[] args) {
 
     }
 }
-/*Создать класс Friend (друг) с тремя конструкторами:
-— Имя
-— Имя, возраст
-— Имя, возраст, пол*/

@@ -30,13 +30,9 @@ public class Circle {
         this.color = color;
     }
 
-    //напишите тут ваш код
 
     public static void main(String[] args) {
 
     }
 }
 
-/*centerX, centerY, radius
-— centerX, centerY, radius, width
-— centerX, centerY, radius, width, color*/
