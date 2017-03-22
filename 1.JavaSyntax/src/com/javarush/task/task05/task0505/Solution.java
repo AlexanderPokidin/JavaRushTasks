@@ -35,7 +35,7 @@ public class Solution {
             int strengthPlus = this.strength > anotherCat.strength ? 1 : 0;
 
             int score = agePlus + weightPlus + strengthPlus;
-            return score > 2; 
+            return score > 2;
         }
     }
 }
