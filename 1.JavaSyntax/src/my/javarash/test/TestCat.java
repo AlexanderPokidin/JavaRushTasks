@@ -4,7 +4,7 @@ package my.javarash.test;
  * Created by asd on 27.03.2017.
  */
 public class TestCat {
-    static int catCount = 0;
+    private static int catCount = 0;
     public TestCat() {
         catCount++;
     }
