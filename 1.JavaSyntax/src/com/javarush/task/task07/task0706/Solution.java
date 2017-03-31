@@ -15,18 +15,21 @@ public class Solution {
         int odd = 0;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < street.length; i++){
-
-            Integer.parseInt(reader.readLine());
-            if (i % 2 == 0 && i == 0){
-                even = even + street[i];
-            } else if (i % 2 != 0){
+            int num = Integer.parseInt(reader.readLine());
+            street[i] = num;
+        }
+        for (int i = 0; i < street.length; i++){
+            if (i % 2 != 0){
                 odd = odd + street[i];
-            }
+            } else {
+                even = even + street[i];
+        }
+
         }
         if (even > odd){
             System.out.printf("В домах с четными номерами проживает больше жителей.");
         } else {
-            System.out.printf("В домах с четными номерами проживает больше жителей.");
+            System.out.printf("В домах с нечетными номерами проживает больше жителей.");
         }
         //напишите тут ваш код
     }
