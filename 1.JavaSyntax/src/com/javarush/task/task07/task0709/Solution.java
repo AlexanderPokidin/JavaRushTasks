@@ -10,6 +10,22 @@ import java.util.ArrayList;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
+        ArrayList<String> list = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        for (int i = 0; i < 5; i++){
+            list.add(reader.readLine());
+        }
+        int min = list.get(0).length();
+        for (String s: list) {
+            if (s.length() < min){
+                min = s.length();
+            }
+        }
+        for (String s: list) {
+            if (s.length() == min){
+                System.out.println(s);
+            }
+        }
         //напишите тут ваш код
     }
 }
